@@ -1,0 +1,33 @@
+.mic_overlay {
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin: 2%;
+  padding: 10px;
+  z-index: 2;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  flex-wrap: wrap;
+  align-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mic_overlay .mic_svg {
+  margin-right: 10px;
+}
+
+.mic_overlay .mic_cta p {
+  margin: 0;
+  margin-bottom: 7px;
+  padding: 0;
+  text-align: center;
+}
+
+.mic_overlay .mic_cta .mic_status {
+}
+.mic_overlay .mic_cta .mic_prompt {
+  font-size: 15px;
+  text-decoration: underline;
+}
