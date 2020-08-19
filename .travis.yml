@@ -8,7 +8,7 @@ install:
   - npm ci
 
 script:
-  - gulp build
+  - npm run build
 
 deploy:
   provider: pages
