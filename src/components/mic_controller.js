@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import { UserMedia } from "tone";
 import "../styles/mic_controller.css";
 
+const mic_container = new UserMedia().toDestination();
+
 export default function Mic_controller() {
   var [mic_active, set_mic_state] = useState("stopped");
-  var [mic_container, set_mic] = useState(new UserMedia().toDestination());
 
   //ping the mic status every 5 seconds.
   useEffect(() => {
     const interval = setInterval(() => {
-      console.log(mic_container.state);
       set_mic_state(mic_container.state);
     }, 5000);
     return () => clearInterval(interval);
@@ -28,7 +28,7 @@ export default function Mic_controller() {
 
   return (
     <React.Fragment>
-      {mic_active == "started" ? (
+      {mic_active === "started" ? (
         <div className="mic_overlay">
           <div>
             <svg
