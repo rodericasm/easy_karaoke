@@ -1,6 +1,6 @@
 
 
-## EZ KARAOKE
+## Easy Karaoke
 
 ### Karaoke in your browser
 
