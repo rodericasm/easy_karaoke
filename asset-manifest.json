@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/easy_karaoke/static/css/main.150ee4be.chunk.css",
+    "main.js": "/easy_karaoke/static/js/main.4e79d4dc.chunk.js",
+    "main.js.map": "/easy_karaoke/static/js/main.4e79d4dc.chunk.js.map",
+    "runtime-main.js": "/easy_karaoke/static/js/runtime-main.f28274a9.js",
+    "runtime-main.js.map": "/easy_karaoke/static/js/runtime-main.f28274a9.js.map",
+    "static/js/2.508b387d.chunk.js": "/easy_karaoke/static/js/2.508b387d.chunk.js",
+    "static/js/2.508b387d.chunk.js.map": "/easy_karaoke/static/js/2.508b387d.chunk.js.map",
+    "index.html": "/easy_karaoke/index.html",
+    "precache-manifest.9c9abebbc40a9ee4b226410554073140.js": "/easy_karaoke/precache-manifest.9c9abebbc40a9ee4b226410554073140.js",
+    "service-worker.js": "/easy_karaoke/service-worker.js",
+    "static/css/main.150ee4be.chunk.css.map": "/easy_karaoke/static/css/main.150ee4be.chunk.css.map",
+    "static/js/2.508b387d.chunk.js.LICENSE.txt": "/easy_karaoke/static/js/2.508b387d.chunk.js.LICENSE.txt",
+    "static/media/easy_web.m4v": "/easy_karaoke/static/media/easy_web.a30e9bcf.m4v"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f28274a9.js",
+    "static/js/2.508b387d.chunk.js",
+    "static/css/main.150ee4be.chunk.css",
+    "static/js/main.4e79d4dc.chunk.js"
+  ]
+}
